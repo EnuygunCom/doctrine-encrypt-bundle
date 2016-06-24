@@ -47,8 +47,8 @@ class DoctrineEncryptExtension extends Extension {
         }
 
         //Set parameters
-        $container->setParameter('ambta_doctrine_encrypt.encryptor_class_name', $config['encryptor_class']);
-        $container->setParameter('ambta_doctrine_encrypt.secret_key', $config['secret_key']);
+        $container->setParameter('enuyguncom_doctrine_encrypt.encryptor_class_name', $config['encryptor_class']);
+        $container->setParameter('enuyguncom_doctrine_encrypt.secret_key', $config['secret_key']);
 
         //Load service file
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
@@ -56,6 +56,6 @@ class DoctrineEncryptExtension extends Extension {
     }
 
     public function getAlias() {
-        return 'ambta_doctrine_encrypt';
+        return 'enuyguncom_doctrine_encrypt';
     }
 }

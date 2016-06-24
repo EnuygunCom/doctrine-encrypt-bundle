@@ -4,7 +4,7 @@ Bundle allows to create doctrine entities with fields that will be protected wit
 help of some encryption algorithm in database and it will be clearly for developer, because bundle is uses doctrine life cycle events
 
 This is an fork from the original bundle created by vmelnik-ukrain (Many thanks to him) which can be found here:
-[ambta/DoctrineEncryptBundle](https://github.com/ambta/DoctrineEncryptBundle)
+[enuyguncom/DoctrineEncryptBundle](https://github.com/ambta/DoctrineEncryptBundle)
 
 I improved several things, i make better use of the doctrine events. and it works with lazy loading (relationships)!
 This will be an long term project we will be working on with long-term support and backward compatibility. We are using this bundle in all our own symfony2 project.

@@ -10,7 +10,7 @@ Add EnuygunComDoctrineEncryptBundle in your composer.json:
 ```js
 {
     "require": {
-        "ambta/doctrine-encrypt-bundle": "dev-master"
+        "enuyguncom/doctrine-encrypt-bundle": "dev-master"
     }
 }
 ```
@@ -18,10 +18,10 @@ Add EnuygunComDoctrineEncryptBundle in your composer.json:
 Now tell composer to download the bundle by running the command:
 
 ``` bash
-$ php composer.phar update ambta/doctrine-encrypt-bundle
+$ php composer.phar update enuyguncom/doctrine-encrypt-bundle
 ```
 
-Composer will install the bundle to your project's `vendor/ambta` directory.
+Composer will install the bundle to your project's `vendor/enuyguncom` directory.
 
 ### Step 2: Enable the bundle
 

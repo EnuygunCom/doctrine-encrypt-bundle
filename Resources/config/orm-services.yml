@@ -1,8 +1,8 @@
 services:
-    ambta_doctrine_encrypt.orm_subscriber:
+    enuyguncom_doctrine_encrypt.orm_subscriber:
         class: EnuygunCom\DoctrineEncryptBundle\Subscribers\DoctrineEncryptSubscriber
-        arguments: ["@annotation_reader", %ambta_doctrine_encrypt.encryptor_class_name%, %ambta_doctrine_encrypt.secret_key%]
+        arguments: ["@annotation_reader", %enuyguncom_doctrine_encrypt.encryptor_class_name%, %enuyguncom_doctrine_encrypt.secret_key%]
         tags:
             -  { name: doctrine.event_subscriber }
-    ambta_doctrine_encrypt.subscriber:
-        alias: ambta_doctrine_encrypt.orm_subscriber
+    enuyguncom_doctrine_encrypt.subscriber:
+        alias: enuyguncom_doctrine_encrypt.orm_subscriber
