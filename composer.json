@@ -1,0 +1,30 @@
+{
+    "name": "enuyguncom/doctrine-encrypt-bundle",
+    "type": "library",
+    "keywords": ["doctrine", "symfony", "aes256", "encrypt", "decrypt"],
+    "license": "MIT",
+    "description": "Symfony 2 bundle which allows to encrypt data in database with some encrypt algorithm",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.0",
+        "ext-mcrypt": "*"
+    },
+    "autoload": {
+        "psr-0": { "EnuygunCom\\DoctrineEncryptBundle": "" }
+    },
+    "target-dir": "EnuygunCom/DoctrineEncryptBundle",
+    "authors": [
+        {
+            "name": "Victor Melnik",
+            "email": "melnikvictorl@gmail.com"
+        },
+        {
+            "name": "Marcel van Nuil",
+            "email": "marcel@ambta.com"
+        },
+        {
+            "name": "Behçet Mutlu",
+            "email": "behcet.mutlu@enuygun.com"
+        }
+    ]
+}
